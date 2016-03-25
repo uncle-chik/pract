@@ -1,0 +1,40 @@
+.container div{
+width:100px;
+height:50px;
+border-radius:50%;
+animation: rot linear;
+position:absolute;
+animation-duration:8s;
+}
+
+.container{
+position: relative;
+width:100px;
+height:100px;
+margin:100px auto;
+}
+.container .green{
+background: green;
+animation-delay:4s;
+
+}
+.container .red{
+background: red;
+animation-delay:3s;
+}
+.container .yellow{
+background: yellow;
+animation-delay:2s;
+}
+.container .blue{
+background: blue;
+animation-delay:1s;
+}
+.container .aqua{
+background: aqua;
+}
+
+@keyframes rot{
+from{transform:rotate(0deg);}
+to{transform:rotate(180deg);}
+}
